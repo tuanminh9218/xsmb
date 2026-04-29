@@ -1,0 +1,6 @@
+{
+  "name": "Chuyên Gia Chốt Số",
+  "description": "Ứng dụng phân tích dữ liệu ghi số lô, đề, xiên bằng AI, chuyển văn bản thành định dạng JSON chuẩn.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
