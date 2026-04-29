@@ -35,21 +35,13 @@ steps:
     uses: actions/checkout@v4
 
 
-
-  - name: Setup Node
-
-    uses: actions/setup-node@v4
-
-    with:
-
-      \# Cập nhật lên Node.js 24
-
-      node-version: "24"
-
-      \# Tự động cache giúp tốc độ install nhanh hơn ở các lần sau
-
-      cache: 'npm'
-
+ - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          # Cập nhật lên Node.js 24
+          node-version: "24"
+          # Tự động cache giúp tốc độ install nhanh hơn ở các lần sau
+          cache: 'npm'
 
 
   - name: Install dependencies
